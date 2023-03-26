@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+}
+
+/* ----------RESULTS----------- */
+/* ----------RESULTS----------- */
+
+.results {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 57px 40px;
+}
+
+.results h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #CAC9FF;
+}
+
+.results h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    margin-bottom: 8px
+}
+
+.results p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #CAC9FF;
+}
+
+/* ---CIRCLE--- */
+/* ---CIRCLE--- */
+
+.circle {
+    width: 140px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    padding: 25px 47px 22px;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle span:first-child {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.circle span:nth-child(2) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+/* ----------------SUMMARY--------------- */
+/* ----------------SUMMARY--------------- */
+
+.summary {
+    padding: 24px 30px 30px;
+}
+
+.summary h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59;
+}
+
+.sumlist {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.sumlist div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 18px 16px 18px 20px;
+}
+
+.sumlist ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sumlist ul img {
+    margin-right: 13px;
+}
+
+.sumlist h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.reaction {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+
+.reaction h3 {
+    color: #FF5555;
+}
+
+.memory {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.memory h3 {
+    color: #FFB21E;
+}
+
+.verbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+.verbal h3 {
+    color: #00BB8F;
+}
+
+.visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
+.visual h3 {
+    color: #1125D6;
+}
+
+.sumlist .numbs {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #303B59;
+}
+
+.numbs span {
+    opacity: 0.5;
+}
+
+button {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: #303B59;
+    border-radius: 128px;
+    padding: 17px 120px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+@media (min-width:768px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ECF2FF;
+    }
+
+    .container {
+        display: flex;
+        box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+        border-radius: 32px;
+        max-width: 736px;
+    }
+
+    .results {
+        border-radius: 32px;
+    }
+
+    /* ----RESULTS---- */
+    /* ----RESULTS---- */
+    .results {
+        padding: 38px 47px 55px;
+    }
+
+    .results h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .results p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .circle {
+        width: 200px;
+        padding: 55px 60px 46px;
+        margin: 35px 0 28px;
+    }
+
+    .circle span:first-child {
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+    .circle span:nth-child(2) {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    /* ----SUMMARY---- */
+    /* ----SUMMARY---- */
+
+    .summary {
+        padding: 38px 40px 46px;
+    }
+
+    .summary h1 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .sumlist {
+        margin: 28px 0 41px;
+    }
+
+    .sumlist h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .sumlist .numbs {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+}
+
+
+/* --------------HOVER--------------- */
+/* --------------HOVER--------------- */
+
+button:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    cursor: pointer;
+}
